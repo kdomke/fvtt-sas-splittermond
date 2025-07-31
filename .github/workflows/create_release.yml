@@ -41,7 +41,7 @@ jobs:
           download: https://github.com/${{github.repository}}/releases/download/${{env.RELEASE_VERSION}}/package.zip
 
       # Create a zip file with all files required by the module to add to the release
-      - run: zip -r ./package.zip graphics/ scripts/ module.json
+      - run: zip -r ./package.zip calendars/ module.json
       
       - name: Update Release with artifacts    
         id: create_version_release
