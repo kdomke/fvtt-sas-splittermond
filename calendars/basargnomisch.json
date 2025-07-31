@@ -1,0 +1,155 @@
+{
+  "id": "dragonlance",
+  "translations": {
+    "de": {
+      "label": "Basargnomischer Kalender",
+      "description": "Allgemeiner Kalender, auf Dragorea verbreitet",
+      "setting": "Splittermond"
+    }
+  },
+  "year": {
+    "epoch": 0,
+    "currentYear": 996,
+    "suffix": " LZ."
+  },
+  "months": [
+    {
+      "name": "Schneemond",
+      "days": 28
+    },
+    {
+      "name": "Frostmond",
+      "days": 28
+    },
+    {
+      "name": "Wassermond",
+      "days": 28
+    },
+    {
+      "name": "Saatmond",
+      "days": 28
+    },
+    {
+      "name": "Blütenmond",
+      "days": 28
+    },
+    {
+      "name": "Heumond",
+      "days": 28
+    },
+    {
+      "name": "Erntemond",
+      "days": 28
+    },
+    {
+      "name": "Hitzemond",
+      "days": 28
+    },
+    {
+      "name": "Fruchtmond",
+      "days": 28
+    },
+    {
+      "name": "Sturmmond",
+      "days": 28
+    },
+    {
+      "name": "Weinmond",
+      "days": 28
+    },
+    {
+      "name": "Nebelmond",
+      "days": 28
+    },
+    {
+      "name": "Hausmond",
+      "days": 28
+    }
+    
+  ],
+  "weekdays": [
+    {
+      "name": "Mondtag",
+      "abbreviation": "Mo"
+    },
+    {
+      "name": "Markttag",
+      "abbreviation": "Ma"
+    },
+    {
+      "name": "Forschtag",
+      "abbreviation": "Fo"
+    },
+    {
+      "name": "Lobetag",
+      "abbreviation": "Lo"
+    },
+    {
+      "name": "Kunsttag",
+      "abbreviation": "Ku"
+    },
+    {
+      "name": "Rechentag",
+      "abbreviation": "Re"
+    },
+    {
+      "name": "Feiertag",
+      "abbreviation": "Fe"
+    }
+    
+  ],
+  "dateFormats": {
+    "default": "{{ss-day format=\"ordinal\"}} {{ss-month format=\"name\"}}, {{year}} LZ."
+  },
+  "moons": [
+    {
+      "name": "Großer Mond",
+      "cycleLength": 28,
+      "firstNewMoon": { "year": 0, "month": 1, "day": 1 },
+      "phases": [
+        { "name": "Neumond",           "length": 1, "singleDay": true,  "icon": "new" },
+        { "name": "Zunehmende Sichel", "length": 6, "singleDay": false, "icon": "waxing-crescent" },
+        { "name": "Halbmond",          "length": 1, "singleDay": true,  "icon": "first-quarter" },
+        { "name": "Zunehmender Mond",  "length": 6, "singleDay": false, "icon": "waxing-gibbous" },
+        { "name": "Vollmond",          "length": 1, "singleDay": true,  "icon": "full" },
+        { "name": "Abnehmender Mond",  "length": 6, "singleDay": false, "icon": "waning-gibbous" },
+        { "name": "Halbmond",          "length": 1, "singleDay": true,  "icon": "last-quarter" },
+        { "name": "Abnehmende Sichel", "length": 6, "singleDay": false, "icon": "waning-crescent" }
+      ],
+      "color": "#f0f0f0"
+    },
+    {
+      "name": "Finstermond",
+      "cycleLength": 44,
+      "firstNewMoon": { "year": 0, "month": 1, "day": 1 },
+      "phases": [
+        { "name": "Neumond",           "length":  1, "singleDay": true,  "icon": "new" },
+        { "name": "Zunehmende Sichel", "length": 10, "singleDay": false, "icon": "waxing-crescent" },
+        { "name": "Halbmond",          "length":  1, "singleDay": true,  "icon": "first-quarter" },
+        { "name": "Zunehmender Mond",  "length": 10, "singleDay": false, "icon": "waxing-gibbous" },
+        { "name": "Vollmond",          "length":  1, "singleDay": true,  "icon": "full" },
+        { "name": "Abnehmender Mond",  "length": 10, "singleDay": false, "icon": "waning-gibbous" },
+        { "name": "Halbmond",          "length":  1, "singleDay": true,  "icon": "last-quarter" },
+        { "name": "Abnehmende Sichel", "length": 10, "singleDay": false, "icon": "waning-crescent" }
+      ],
+      "color": "#b10201"
+    },
+    {
+      "name": "Splittermond",
+      "cycleLength": 20,
+      "firstNewMoon": { "year": 0, "month": 1, "day": 1 },
+      "phases": [
+        { "name": "Neumond",           "length": 1, "singleDay": true,  "icon": "new" },
+        { "name": "Zunehmende Sichel", "length": 4, "singleDay": false, "icon": "waxing-crescent" },
+        { "name": "Halbmond",          "length": 1, "singleDay": true,  "icon": "first-quarter" },
+        { "name": "Zunehmender Mond",  "length": 4, "singleDay": false, "icon": "waxing-gibbous" },
+        { "name": "Vollmond",          "length": 1, "singleDay": true,  "icon": "full" },
+        { "name": "Abnehmender Mond",  "length": 4, "singleDay": false, "icon": "waning-gibbous" },
+        { "name": "Halbmond",          "length": 1, "singleDay": true,  "icon": "last-quarter" },
+        { "name": "Abnehmende Sichel", "length": 4, "singleDay": false, "icon": "waning-crescent" }
+      ],
+      "color": "#b10201"
+    }
+
+  ]
+}

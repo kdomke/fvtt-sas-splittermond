@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/rayners/fvtt-seasons-and-stars/main/schemas/calendar-collection-v1.0.0.json",
+  "name": "Splittermond Kalender",
+  "description": "Kalender für den Einsatz in Splittermond Kampagnen",
+  "version": "1.0.0",
+  "author": "Kristian D",
+  "calendars": [
+    {
+      "id": "basargnomisch",
+      "name": "Basargnomischer Kalender",
+      "description": "Allgemeiner Kalender, auf Dragorea verbreitet",
+      "file": "basargnomisch.json",
+      "preview": "15. Sturmmond 991 LZ.",
+      "tags": ["splittermond", "fantasy"],
+      "author": "Kristian D"
+    }
+  ]
+}

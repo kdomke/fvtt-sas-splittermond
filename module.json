@@ -1,0 +1,29 @@
+{
+  "id": "seasons-and-stars-splittermond",
+  "title": "Seasons & Stars: Splittermond Kalender Paket",
+  "description": "Kalender für das Rollenspiel Splittermond",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "KristianD",
+      "discord": ".neuromancer."
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "seasons-and-stars",
+        "type": "module",
+        "compatibility": {
+          "minimum": "0.7.0"
+        }
+      }
+    ]
+  },
+  "manifest": "https://your-repo.com/module.json",
+  "download": "https://your-repo.com/releases/latest/download/module.zip"
+}
