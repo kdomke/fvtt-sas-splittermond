@@ -1,13 +1,9 @@
 {
+  "$schema": "https://github.com/rayners/fvtt-seasons-and-stars/raw/refs/heads/main/shared/schemas/calendar-collection-v1.0.0.json",
   "name": "Splittermond Kalender",
   "description": "Kalender für den Einsatz in Splittermond Kampagnen",
   "version": "1.0.0",
-  "authors": [
-        {
-            "name": "KristianD",
-            "discord": ".neuromancer."
-        }
-  ],
+
   "calendars": [
     {
       "id": "basargnomisch",
