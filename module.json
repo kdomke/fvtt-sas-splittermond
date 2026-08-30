@@ -2,7 +2,7 @@
   "id": "seasons-and-stars-splittermond",
   "title": "Seasons & Stars: Splittermond Kalender Paket",
   "description": "Kalender für das Rollenspiel Splittermond",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     {
       "name": "KristianD",
@@ -11,7 +11,7 @@
   ],
   "compatibility": {
     "minimum": "13",
-    "verified": "13"
+    "verified": "14.367"
   },
   "relationships": {
     "requires": [
@@ -19,7 +19,8 @@
         "id": "seasons-and-stars",
         "type": "module",
         "compatibility": {
-          "minimum": "0.7.0"
+          "minimum": "0.10.0",
+          "verified": "0.26"
         }
       }
     ]
