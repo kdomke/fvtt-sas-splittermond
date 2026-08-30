@@ -57,7 +57,7 @@ jobs:
           body: ${{ github.event.release.body }}
       - name: Publish Module to FoundryVTT Website
         id: publish-to-foundry-website
-        uses: cs96and/FoundryVTT-release-package@v1
+        uses: cs96and/FoundryVTT-release-package@v1.0.3 
         with:
           package-token: ${{ secrets.PACKAGE_TOKEN }}
           manifest-url: https://github.com/${{github.repository}}/releases/latest/download/module.json
